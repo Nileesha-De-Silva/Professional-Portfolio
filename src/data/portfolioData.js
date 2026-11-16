@@ -29,7 +29,7 @@ export const portfolioData = {
     github: "https://github.com/Nileesha-De-Silva",
     linkedin: "https://www.linkedin.com/in/nileesha-de-silva-9bb2043b2",
     twitter: null,
-    resumeUrl: "/cv.pdf", // Place your cv.pdf in the /public folder to open directly
+    resumeUrl: "https://drive.google.com/file/d/1J_ERYYqX8qbrMt1T8vgpqRpz7MIRdgzF/view?usp=sharing",
     avatarUrl: "/profile.jpg",
     terminalFileName: "nileesha_desilva.jpg"
   },
@@ -58,8 +58,8 @@ export const portfolioData = {
       specialization: "Software Engineering",
       institution: "Sri Lanka Institute of Information Technology (SLIIT)",
       institutionUrl: "https://www.sliit.lk",
-      period: "Expected Graduation • 2028",
-      status: "Undergraduate Student"
+      period: "Jul 2024 - Present (Exp. 2028)",
+      status: "3rd Year Undergraduate"
     },
     // Career targets
     careerGoals: [
