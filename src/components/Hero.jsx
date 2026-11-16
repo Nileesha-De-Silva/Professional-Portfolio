@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FileText, Eye, Mail, Terminal } from 'lucide-react';
+import { FileText, Eye, Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, TwitterIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
@@ -156,36 +156,15 @@ export default function Hero() {
 
           </div>
 
-          {/* Right Column: macOS Terminal Window Card */}
+          {/* Right Column: Square Profile Photo Card */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="w-full max-w-md rounded-2xl bg-white border-2 border-slate-200 shadow-xl overflow-hidden group hover:border-[#0a192f] hover:shadow-2xl transition-all duration-300">
-              
-              {/* macOS Window Top Chrome Bar */}
-              <div className="px-4 py-3 bg-slate-100 border-b border-slate-200 flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-rose-500" />
-                  <div className="w-3 h-3 rounded-full bg-amber-500" />
-                  <div className="w-3 h-3 rounded-full bg-emerald-500" />
-                </div>
-                <div className="text-xs font-mono text-slate-700 flex items-center gap-1.5 font-medium">
-                  <Terminal className="w-3.5 h-3.5 text-[#0a192f]" />
-                  <span>{personal.terminalFileName || "nileesha_desilva.jpg"}</span>
-                </div>
-                <div className="w-12"></div>
-              </div>
-
-              {/* Window Body: Clean Square Profile Photo */}
-              <div className="p-4 sm:p-5 flex items-center justify-center bg-white">
-                <div className="relative aspect-square w-full rounded-xl overflow-hidden border border-slate-200 group-hover:border-[#0a192f] transition-colors shadow-inner bg-slate-50">
-                  <img
-                    src={personal.avatarUrl}
-                    alt={personal.name}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent pointer-events-none" />
-                </div>
-              </div>
-
+            <div className="relative aspect-square w-full max-w-sm sm:max-w-md rounded-2xl overflow-hidden border-2 border-slate-200 group hover:border-[#0a192f] shadow-xl hover:shadow-2xl transition-all duration-300 bg-slate-50">
+              <img
+                src={personal.avatarUrl}
+                alt={personal.name}
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent pointer-events-none" />
             </div>
           </div>
 
