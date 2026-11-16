@@ -29,7 +29,7 @@ export const portfolioData = {
     github: "https://github.com/Nileesha-De-Silva",
     linkedin: "https://www.linkedin.com/in/nileesha-de-silva-9bb2043b2",
     twitter: null,
-    resumeUrl: "https://drive.google.com/file/d/1J_ERYYqX8qbrMt1T8vgpqRpz7MIRdgzF/view?usp=sharing",
+    resumeUrl: "https://drive.google.com/file/d/1wzoq9IzVHxtjE4RdfJOk7wx6rKy3cDIB/view?usp=sharing",
     avatarUrl: "/profile.jpg",
     terminalFileName: "nileesha_desilva.jpg"
   },
